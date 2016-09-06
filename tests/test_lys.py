@@ -63,4 +63,18 @@ class Test(TestCase):
             L.span('.foo.hello world')
         with self.assertRaises(LyxException):
             L.span(',hello')
-        
+
+
+class TestRenderFunctions(TestCase):
+    def test_render_attr(self):
+        pass
+
+    def test_render_attr_invalid(self):
+        pass
+
+    def test_render(self):
+        pass
+
+    def test_render_invalid(self):
+        pass
+
